@@ -15,7 +15,7 @@ itemsContainer.addEventListener('mousemove', (e) => {
   if (!isDragging) return; 
   
   const x = e.pageX - itemsContainer.offsetLeft;
-  const scroll = (x - startX) * 2; 
+  const scroll = (x - startX) * 5; 
   itemsContainer.scrollLeft = scrollLeft - scroll;
 });
 
